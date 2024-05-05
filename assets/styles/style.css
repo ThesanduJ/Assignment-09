@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+#div-section{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+div{
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    display: inline-flex;
+}
+#button-group{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: transparent;
+}
+button{
+    width: 50px;
+    height: 30px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+}
+#start{
+    background-color: rgb(1, 107, 243);
+}
+#stop{
+    background-color: rgb(240, 3, 4);
+}
